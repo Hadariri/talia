@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: plum;
+        }
+
+        .food1 {
+            width: 100px;
+            height: 90px;
+        }
+
+        .food2 {
+            width: 100px;
+            height: 90px;
+        }
+
+        ol {
+            counter-reset: item;
+        }
+
+        ol li {
+            counter-increment: item;
+            margin-bottom: 10px;
+        }
+
+        ol li:before {
+            content: counter(item) ". ";
+            font-weight: bold;
+        }
+    </style>
+
+    <title>מתכון לחצ'פורי ביתי</title>
+</head>
+
+<body>
+    <center>
+        <h1>מתכון לחצ'פורי ביתי</h1>
+
+        <h2>רכיבים</h2>
+
+            <li>2 כוסות קמח</li>
+            <li>1/2 כוס שמן</li>
+            <li>ביצה אחת</li>
+            <li>1/2 כוס סוכר</li>
+            <li>1/2 כוס מים</li>
+            <li>כף אחת של סודה לשתייה</li>
+
+        <h3>הוראות הכנה</h3>
+        
+        <ol>
+            <li>מערבבים יחד את כל הרכיבים לתערובת אחידה ויש לשים לב שתהיה רכה</li>
+            <li>יוצקים כמה כפות לתבנית מאוייתת</li>
+            <li>לאפות בתנור מחומם למשך 15-20 דקות</li>
+            <li>במידה ואתם רוצים תוספת סוכר ניתן להוסיף לאחר ההוצאה מהתנור</li>
+            <li>מחכים שיתקררו</li>
+            <h3>מוכן</h3>
+        </ol>
+
+        <h2>בתאבון</h2>
+
+        <h3>תמונות של חצ'פורי</h3>
+        <img src="food1.jpg" class="food1">
+        <img src="food2.jpg" class="food2">
+    </center>
+</body>
+
+</html>
